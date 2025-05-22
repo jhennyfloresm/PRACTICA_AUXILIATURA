@@ -14,7 +14,7 @@ public class Estudiante extends Persona {
     private String fechaIngreso;
     private String semestre;
 
-    // Constructor
+
     public Estudiante(String ci, String nombre, int fechaNac, String apellido, String celular,
                       String ru, String fechaIngreso, String semestre) {
         super(ci, nombre, apellido, celular, fechaNac);
@@ -23,7 +23,6 @@ public class Estudiante extends Persona {
         this.semestre = semestre;
     }
 
-    // Getters y Setters
     public String getRu() {
         return ru;
     }
@@ -48,10 +47,9 @@ public class Estudiante extends Persona {
         this.semestre = semestre;
     }
 
-    // Método mostrar sobrescrito
     @Override
     public void mostrar() {
         super.mostrar();
-        System.out.println("RU: " + ru + ", Fecha de Ingreso: " + fechaIngreso + ", Semestre: " + semestre);
+        System.out.println("RU: " + ru + ", Fecha de Ingreso: " + fechaIngreso + " Semestre: " + semestre);
     }
 }
