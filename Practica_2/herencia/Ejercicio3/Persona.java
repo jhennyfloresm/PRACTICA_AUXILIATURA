@@ -4,10 +4,6 @@
  */
 package com.mycompany.prac2_3;
 
-/**
- *
- * @author WINDOWS 11
- */
 public class Persona {
     private String ci;
     private String nombre;
