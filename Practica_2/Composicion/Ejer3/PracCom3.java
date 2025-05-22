@@ -13,16 +13,13 @@ public class PracCom3 {
   
     public static void main(String[] args) {
        
-        Avion avion1 = new Avion("Boeing 747", "Boeing");
+        Avion avion1 = new Avion(" bang", "china");
 
-        avion1.agregarParte(new Parte("Motor", 1500));
-        avion1.agregarParte(new Parte("Ala izquierda", 800));
-        avion1.agregarParte(new Parte("Ala derecha", 800));
-        avion1.agregarParte(new Parte("Tren de aterrizaje", 500));
+        avion1.agregarParte(new Parte("Motor", 456));
+        avion1.agregarParte(new Parte("parte trasera", 234));
+        avion1.agregarParte(new Parte("cavinas", 456));
+        avion1.agregarParte(new Parte(" montaje", 654));
 
- 
-        avion1.mostrarAvion();
+ avion1.mostrarAvion();
     }
 }
-
-
