@@ -53,7 +53,6 @@ def mostrar_vehiculos_2025(vehiculos):
             print()
 
 
-# Programa principal
 if __name__ == "__main__":
     vehiculos = []
     coche1 = Coche("Suprime", "45FGG", 2025, 2340, 4, "Gas")
