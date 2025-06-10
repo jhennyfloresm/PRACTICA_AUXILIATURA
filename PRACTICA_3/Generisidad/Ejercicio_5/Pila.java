@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.generisadad_5;
+package com.mycompany.generisidad_5;
 
 /**
  *
@@ -27,7 +27,7 @@ public class Pila<T> {
         if (!elementos.isEmpty()) {
             return elementos.remove(elementos.size() - 1);
         }
-        return null; // o lanzar excepción si se prefiere
+        return null; 
     }
 
     public void mostrarPila() {
